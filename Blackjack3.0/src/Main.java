@@ -9,8 +9,8 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        String inputFilePath = "C:\\Users\\dimas\\Desktop\\game_data.txt";
-        String outputFilePath = "C:\\Users\\dimas\\Desktop\\analyzer_results.txt";
+        String inputFilePath = "filePath to game_data.txt";
+        String outputFilePath = "filePath to analyzer_results.txt";
 
         try {
             List<GameSession> gameSessions = readGameSessionsFromFile(inputFilePath);
